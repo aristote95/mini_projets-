@@ -1,12 +1,6 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import plotly.graph_objects as go
-import plotly.express as px
 
 # 1) Configuration de la page 
 # ==============================
@@ -159,3 +153,4 @@ else:
 
 with st.expander("Voir les données filtrées"):
     st.dataframe(df_filtered.head(200))
+
